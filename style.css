@@ -33,3 +33,7 @@ body{
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
     justify-content: center;*/
+
+.contact_us .email{
+    float: right;
+}
