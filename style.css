@@ -5,19 +5,19 @@
  }
 
 .head {
-    background-image: url(../assets/backgrounds/h_img.jpg);
+    background-image: url(../backgrounds/h_img.jpg);
     padding: 400px;
     margin: 0;
   align-content: center;
    
 }
 .services {
-    background-image: url(../assets/backgrounds/c_img.jpg);
+    background-image: url(../backgrounds/c_img.jpg);
     padding: 400px;
 }
 
 .contact_us {
-    background-image: url(../assets/backgrounds/s_img.jpg);
+    background-image: url(../backgrounds/s_img.jpg);
     padding: 400px;
 }
 /* the 2 dots on the url represent the root for where to locate the image in the fold. display: flex;
