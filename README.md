@@ -22,7 +22,7 @@
 
 ## Known Bugs
 
-{No known bugs so far. }
+{Images don't dsiplay when published on github yet the do on the local repository. }
 
 ## Technologies Used
 
