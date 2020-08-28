@@ -5,14 +5,14 @@
  }
 
 .head {
-    background-image: url(../backgrounds/h_img.jpg);
+    background-image: url(./backgrounds/h_img.jpg);
     padding: 400px;
     margin: 0;
   align-content: center;
    
 }
 .services {
-    background-image: url(../backgrounds/c_img.JPG);
+    background-image: url(./backgrounds/c_img.jpg);
     padding: 400px;
 }
 
