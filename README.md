@@ -2,13 +2,13 @@
 
 # {Moringa Prep34 Project-Delani Studio}
 
-#### {Making Responsive pages}, {28th Aug 2020}
+#### {Using JQUery and JavaScript to Traverse DOM}, {28th Aug 2020}
 
 ## Description
 
-{This project demonstrates the use of types, Array, writing functions, control flow, and operators.Its a combination of html,css and javascript.To achieve the results submitted via html, i have used JavaScript by creating an array from the names given.
+{This project  focuses on the use of JQUERY and JavaScript to demontrate  on how one can manipulate the DOM(Document Object model) of a page dynamically to add, delete and modify elements.
  
- On the linked page, i have added (flexbox page) to bring out it's functionalities by demonstrating its flexibility and superiority over floats.}
+ I have used Bootstrap for styling and a custom css sytle to manage the images.}
 
 ## Setup/Installation Requirements
 
@@ -19,10 +19,11 @@
 * Atom(optional if you have VS Code)
 {you will need a web browser to use in running the pages created(preferably google chrome or firefox)}
 * Download Bootsrap(combination of js and CSS) or use Bootsrap CDN
+* On the JQuery script, i have used the CDN.
 
 ## Known Bugs
 
-{Images don't dsiplay when published on github yet the do on the local repository. }
+{Not a bug really but one should consider the folder path and case sensitivity when pushing Images to Github website.They will not dsiplay when published on github but  work ok on the local environment. }
 
 ## Technologies Used
 
@@ -33,7 +34,7 @@
 * JavaScript
 * Bootstrap
 * Bootstrap Grid system
-* Flexbox
+* JQuery
 
 ## Support and contact details
 
