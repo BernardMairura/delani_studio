@@ -3,6 +3,10 @@
 
 .head {
     background-image: url(../assets/backgrounds/h_img.jpg);
-    padding: 100px;
+    padding: 400px;
+    margin: 0;
+    display: flex;
+   
 }
-/* the 2 dots on the url represent the root for where to locate the image in the fold. */
+/* the 2 dots on the url represent the root for where to locate the image in the fold. display: flex;
+    justify-content: center;*/
