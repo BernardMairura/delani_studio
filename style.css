@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
+ *body {
+     background-color: black;
+ }
 
 .head {
     background-image: url(../assets/backgrounds/h_img.jpg);
     padding: 400px;
     margin: 0;
-    display: flex;
+  align-content: center;
    
+}
+.services {
+    background-image: url(../assets/backgrounds/c_img.jpg);
+    padding: 400px;
+}
+
+.contact_us {
+    background-image: url(../assets/backgrounds/s_img.jpg);
+    padding: 400px;
 }
 /* the 2 dots on the url represent the root for where to locate the image in the fold. display: flex;
     justify-content: center;*/
