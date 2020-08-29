@@ -68,6 +68,12 @@
     display: table;
     align-content: center;
   }
+
+  #designW, #devW, #productW {
+      display: none;
+
+  }
+
 .portfolio{
     text-align-last: center;
 }
