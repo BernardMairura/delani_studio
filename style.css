@@ -15,7 +15,7 @@
  
 .head {
     background-image: url(./backgrounds/h_img.jpg);
-    padding: 400px;
+    padding: 370px;
        
 }
 
@@ -33,7 +33,7 @@
 
 .services {
     background-image: url(./backgrounds/s_img.jpg);
-    padding: 400px;
+    padding: 100px;
 }
 
 .services .content{
@@ -72,7 +72,7 @@
 }
 .contact_us {
     background-image: url(./backgrounds/c_img.jpg);
-    padding: 400px;
+    padding: 250px;
     
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
