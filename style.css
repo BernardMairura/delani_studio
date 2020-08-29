@@ -15,7 +15,7 @@
  
 .head {
     background-image: url(./backgrounds/h_img.jpg);
-    padding: 370px;
+    padding: 350px;
        
 }
 
@@ -28,6 +28,11 @@
     text-align: center;
     
 
+}
+
+.about_us {
+    text-align-last: center;
+  
 }
 
 
@@ -45,6 +50,24 @@
     text-align: center;
     
 }
+.whatWeDo{
+    text-align-last: center;
+}
+
+.whatWeDo #design, #dev, #Product {
+    float: left;
+    width: 33.33%; /*100/3=33.33% */
+    padding: 5px;
+   
+  }
+  
+  /* Clearfix (clear floats) */
+  .whatWeDo::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-content: center;
+  }
 .portfolio{
     text-align-last: center;
 }
