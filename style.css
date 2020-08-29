@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 *{
     padding: 0 bold;
@@ -8,20 +8,26 @@
     font-family: 'Montserrat', sans-serif; 
 }
 
-body{
-    background: #585c68;
-    font-size: 14px;
-    line-height: 22px;
-    color: #555555;
-}
+
 
  
 .head {
     background-image: url(./backgrounds/h_img.jpg);
     padding: 400px;
-    
-   
+       
 }
+
+.head .content {
+    position: relative; /* Position the background text */
+    color: #f1f1f1; /* Grey text */
+    font-weight: bolder;
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+
+
+}
+
+
 .services {
     background-image: url(./backgrounds/c_img.jpg);
     padding: 400px;
@@ -33,3 +39,7 @@ body{
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
     justify-content: center;*/
+
+.contact_us .email{
+    float: right;
+}
