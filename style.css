@@ -8,7 +8,9 @@
     font-family: 'Montserrat', sans-serif; 
 }
 
-
+* {
+    box-sizing: border-box;
+  }
 
  
 .head {
@@ -23,23 +25,74 @@
     font-weight: bolder;
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */
-
+    text-align: center;
+    
 
 }
 
 
 .services {
-    background-image: url(./backgrounds/c_img.jpg);
+    background-image: url(./backgrounds/s_img.jpg);
     padding: 400px;
 }
 
+.services .content{
+    position: relative; /* Position the background text */
+    color: #f1f1f1; /* Grey text */
+    font-weight: bolder;
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */ 
+    text-align: center;
+    
+}
+.portfolio{
+    text-align-last: center;
+}
+
+.portfolio .row .column {
+    float: left;
+    width: 25%; /*100/4=25% */
+    padding: 5px;
+   
+  }
+  
+  /* Clearfix (clear floats) */
+  .portfolio .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-content: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
 .contact_us {
-    background-image: url(./backgrounds/s_img.jpg);
+    background-image: url(./backgrounds/c_img.jpg);
     padding: 400px;
+    
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
     justify-content: center;*/
 
 .contact_us .email{
     float: right;
+}
+
+.contact_us .content{
+    position: relative; /* Position the background text */
+    color: #f1f1f1; /* Grey text */
+    font-weight: bolder;
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+    text-align: center;
+    
+}
+
+.social{
+    align-content: center;
+
 }
