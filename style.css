@@ -16,6 +16,7 @@
 .head {
     background-image: url(./backgrounds/h_img.jpg);
     padding: 350px;
+    margin-bottom: 50px;
        
 }
 
@@ -32,6 +33,7 @@
 
 .about_us {
     text-align-last: center;
+    margin-bottom: 50px;
   
 }
 
@@ -39,6 +41,7 @@
 .services {
     background-image: url(./backgrounds/s_img.jpg);
     padding: 100px;
+    margin-bottom: 50px;
 }
 
 .services .content{
@@ -48,16 +51,19 @@
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */ 
     text-align: center;
+    margin-bottom: 50px;
     
 }
 .whatWeDo{
     text-align-last: center;
+    
 }
 
 .whatWeDo #design, #dev, #Product {
     float: left;
     width: 33.33%; /*100/3=33.33% */
     padding: 5px;
+    margin-bottom: 50px;
    
   }
   
@@ -81,8 +87,9 @@
 .portfolio .row .column {
     float: left;
     width: 25%; /*100/4=25% */
-    padding: 5px;
-   
+    padding: 10px;
+    margin-bottom: 50px;
+
   }
   
   /* Clearfix (clear floats) */
@@ -91,6 +98,7 @@
     clear: both;
     display: table;
     align-content: center;
+    
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -102,6 +110,7 @@
 .contact_us {
     background-image: url(./backgrounds/c_img.jpg);
     padding: 250px;
+    margin-bottom: 50px;
     
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
