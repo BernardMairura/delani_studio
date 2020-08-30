@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head >
         <title>Delani Studio</title>
         <meta charset="UTF-8">
@@ -13,10 +13,10 @@
     <body class="container-fluid">
         <div class="head">
             <div class="content">
-                <i><img src="logo/logo.png" alt="logo"></i></br>
+                <i><img src="logo/logo.png" alt="logo" class="logo"></i></br>
                 <h1>WELCOME </br> TO DELANI STUDIO <br> </h1>
                 <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p></br>
-                <i><img src="mouse_click.png" alt="mouse" style="align-content: bottom;"></i>
+                <i><img src="mouse_click.png" alt="mouse" class="mouse"></i>
             </div>  
         </div>
         <div class="about_us">
@@ -36,25 +36,25 @@
                     <p>based on your requirements, we can provide a complete offering or just the pieces you need.</p>
                 </div>  
             </div>
-            <div class="whatWeDo"><h1>WHAT WE DO</h1>
-                <div id="design"><img src="services_icons/design_icon.png" alt="design">DESIGN</div>
-                    <div id="designW"><h6>DESIGN</h6>
-                        <P>Our design practise offers a full range of services including brand startegy, interaction and visual design, and user experience</P>
-                        <P>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with 
-                            you to make sure what gets build is what is needed.</P>
-                    </div>
-            <div id="dev"><img src="services_icons/dev_icon.png" alt="dev">DEVELOPMENT</div>
-                    <div id="devW"><h6>DEVELOPMENT</h6>
-                        <P>All engineers are fluent in the latest enterprise, mobile and web development, technologies.</P>
-                        <P>They collaborate with your team to right and improve code on a daily basis, using practises such as test-driven development and pair programming.</P>
-                    </div>
-            <div id="product"><img src="services_icons/product_icon.png" alt="product">PRODUCT MANAGEMENT</div>     
-                    <div id="productW"><h6>PRODUCT MANAGEMENT</h6>
-                        <P>Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live.</P>
-                        <P>This iterative process allows for changes as business requirements evolve.</P>
-                    </div>                               
-        </div>
-
+        <div class="whatWeDo"><h1>WHAT WE DO</h1>
+            <div id="design"><img src="services_icons/design_icon.png" alt="design" class="design_icon">
+                <h5><strong>DESIGN</strong></h5>
+                <P class="designW">Our design practise offers a full range of services including brand startegy, interaction and visual design, and user experience</P>
+                <P class="designW">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets build is what is needed.</P>
+            </div>
+                                  
+            <div id="dev"><img src="services_icons/dev_icon.png" alt="dev" class="dev_icon">
+                <h5><strong>DEVELOPMENT</strong></h5>
+                <P class="devW">All engineers are fluent in the latest enterprise, mobile and web development, technologies.</P>
+                <P class="devW">They collaborate with your team to right and improve code on a daily basis, using practises such as test-driven development and pair programming.</P>
+            </div>
+                         
+            <div id="product"><img src="services_icons/product_icon.png" alt="product" class="product_icon">
+                <h5><strong>PRODUCT MANAGEMENT</strong></h5>
+                <P class="productW">Planning and development is iterative.Because we are constantly coding and testing, the products we build are always ready to go live</P>
+                <P class="productW">This iterative process allows for changes as business requirements evolve.</P>
+            </div>     
+        </div>         
         <div class="portfolio"><h1>PORTFOLIO</h1>
             <div class="row">
                 <div class="column"><img src="portfolio/work1.jpg" alt="work1" style="width: 100%;"></div>
@@ -64,35 +64,29 @@
                 <div class="column"><img src="portfolio/work5.jpg" alt="work5" style="width: 100%;"></div>
                 <div class="column"><img src="portfolio/work6.jpg" alt="work6" style="width: 100%;"></div>
                 <div class="column"><img src="portfolio/work7.jpg" alt="work7" style="width: 100%;"></div>
-                 <div class="column"><img src="portfolio/work8.jpg" alt="work8" style="width: 100%;"></div>
+                <div class="column"><img src="portfolio/work8.jpg" alt="work8" style="width: 100%;"></div>
             </div>
                
         </div>
 
-        <div class="contact_us"><h1>CONTACT US</h1>
-            <div class="content">
-                <form action="form" id="form">
-                    <div class="name">
-                        <input type="text" placeholder="Name..." id="username">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                    </div>
-                    <div class="email">
-                        <input type="text" placeholder="Email..." id="email">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
-                    </div>
+        <div class="contactUs">
+            <div class="content"><h1>CONTACT US</h1>
+                <form onsubmit="event.preventDefault(); displayVisitor();">
+                        <input type="text" placeholder="Name..." id="userName" style="background: transparent;" >
+                        <input type="text" placeholder="Email..." id="email" style="background: transparent;" >
+                        
                     <div class="msg">
-                        <input type="text" placeholder="Your Message here..." id="msg">
-                        <i class="fas fa-check-circle"></i>
-                        <i class="fas fa-exclamation-circle"></i>
+                        <textarea name="text" placeholder="Your Message here..." id="msg" rows="10" cols="100" ></textarea></form><br>
+                        <button>Send</button>
+                    </div>
+                        
                     </div>
                 </form>               
             </div>
         </div>
 
-        <div class="social">
-            <img class="column" src="social_icons/behance.png" alt="behance">
+        <div class=".supporting">
+            <img src="social_icons/behance.png" alt="behance" class="behance">
             <img src="social_icons/dribble.png" alt="dribble">
             <img src="social_icons/facebook.png" alt="facebook">
             <img src="social_icons/flickr.png" alt="flicker">

@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
+
+
 *{
     padding: 0 bold;
     margin: 0 bold;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+    font-family: "Sofia";
+    font-size: 22px;
 }
 
 * {
@@ -28,6 +35,17 @@
     padding: 20px; /* Some padding */
     text-align: center;
     
+
+}
+.logo{
+position: relative;
+top: -1.4cm; left: 0.7cm;
+}
+
+.mouse{
+    position: relative;
+   bottom: -8.5cm;left: 0.7cm;
+ 
 
 }
 
@@ -57,9 +75,11 @@
 .whatWeDo{
     text-align-last: center;
     
+    
 }
 
-.whatWeDo #design, #dev, #Product {
+
+.whatWeDo #design, #Product ,#dev {
     float: left;
     width: 33.33%; /*100/3=33.33% */
     padding: 5px;
@@ -75,10 +95,14 @@
     align-content: center;
   }
 
-  #designW, #devW, #productW {
-      display: none;
 
+  .whatWeDo p {
+      display: none;
   }
+
+
+
+
 
 .portfolio{
     text-align-last: center;
@@ -107,30 +131,85 @@
       width: 100%;
     }
 }
-.contact_us {
+.contactUs{
     background-image: url(./backgrounds/c_img.jpg);
-    padding: 250px;
+    padding: 150px;
     margin-bottom: 50px;
     
 }
 /* the one .(dot) on the url represent the root for where to locate the image in the folder. display: flex;
     justify-content: center;*/
 
-.contact_us .email{
-    float: right;
-}
-
-.contact_us .content{
+.contactUs{
     position: relative; /* Position the background text */
     color: #f1f1f1; /* Grey text */
     font-weight: bolder;
     width: 100%; /* Full width */
     padding: 20px; /* Some padding */
     text-align: center;
+
+}
+
+.contactUs .content{
+    margin-top: 50px;
+    padding: 0px;
+}
+
+ #userName{
+    margin-right: 55px; 
+    margin-top: 25px;
+    width: 25%;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+      }
+  
+#email{
+    margin-right: 55px; 
+    margin-top: 25px;
+    width: 25%;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+      }
+
+.msg textarea {
+    width: 50%;
+    height: 260px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    background: transparent;
+    
+  
+}
+::placeholder{
+    color: white;
+}
+
+button{
+    background: transparent;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px 10px;
     
 }
 
-.social{
-    align-content: center;
 
+
+.social{
+
+    float: left;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
+
+    
