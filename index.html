@@ -13,10 +13,10 @@
     <body class="container-fluid">
         <div class="head">
             <div class="content">
-                <i><img src="logo/logo.png" alt="logo"></i></br>
+                <i><img src="logo/logo.png" alt="logo" class="logo"></i></br>
                 <h1>WELCOME </br> TO DELANI STUDIO <br> </h1>
                 <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p></br>
-                <i><img src="mouse_click.png" alt="mouse" style="align-content: bottom;"></i>
+                <i><img src="mouse_click.png" alt="mouse" class="mouse"></i>
             </div>  
         </div>
         <div class="about_us">
@@ -71,22 +71,22 @@
 
         <div class="contactUs">
             <div class="content"><h1>CONTACT US</h1>
-                <form action="form" id="form">
-                    <div class="name">
-                        <input type="text" placeholder="Name..." id="userName">
-                    </div>
-                    <div class="email">
-                        <input type="text" placeholder="Email..." id="email">
-                    </div>
+                <form onsubmit="event.preventDefault(); displayVisitor();">
+                        <input type="text" placeholder="Name..." id="userName" style="background: transparent;" >
+                        <input type="text" placeholder="Email..." id="email" style="background: transparent;" >
+                        
                     <div class="msg">
-                        <textarea name="text" placeholder="Your Message here..." id="msg" rows="10" cols="100"></textarea>
+                        <textarea name="text" placeholder="Your Message here..." id="msg" rows="10" cols="100" ></textarea></form><br>
+                        <button>Send</button>
+                    </div>
+                        
                     </div>
                 </form>               
             </div>
         </div>
 
-        <div class="social">
-            <img src="social_icons/behance.png" alt="behance">
+        <div class=".supporting">
+            <img src="social_icons/behance.png" alt="behance" class="behance">
             <img src="social_icons/dribble.png" alt="dribble">
             <img src="social_icons/facebook.png" alt="facebook">
             <img src="social_icons/flickr.png" alt="flicker">
