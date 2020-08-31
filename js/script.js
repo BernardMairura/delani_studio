@@ -59,10 +59,44 @@ $("#product").click(function(){
     }
   ); */
 
-
+  $(".container").hover(
+    function() {
+        
+        $(this).find("img").css("opacity", "0.3")
+        $(this).find(".text").css("opacity", "1")
+    }
+  );
+  /*.container:hover .image {
+  opacity: 0.3;
+}
+   $( this ).addClass( "hover" );
+    }, function() {
+      $( this ).removeClass( "hover" );
+.container:hover .middle {
+  opacity: 1;
+} */
 
 
 });
+
+/* .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  */
 
 
 
@@ -72,9 +106,8 @@ const form=document.getElementById("form");
 
 form.addEventListener("submit", (e)=>{
     e.preventDefault();
-
-    
-    alert("we have recieved your Message.")
+    let nm = $("#username").val();
+    alert(nm+ "!" + "we have received your message. Thank you fro reaching out to us. ");
 })
 
 
