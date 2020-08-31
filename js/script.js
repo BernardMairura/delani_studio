@@ -59,10 +59,10 @@ $("#product").click(function(){
     }
   ); */
 
-  $(".container").hover(
+  $(".row").hover(
     function() {
         
-        $(this).find("img").css("opacity", "0.3")
+        $(this).find(".column").css("opacity", "0.3")
         $(this).find(".text").css("opacity", "1")
     }
   );
@@ -107,7 +107,7 @@ const form=document.getElementById("form");
 form.addEventListener("submit", (e)=>{
     e.preventDefault();
     let nm = $("#username").val();
-    alert(nm+ "!" + "we have received your message. Thank you fro reaching out to us. ");
+    alert(nm+ "!" + "we have received your message. Thank you for reaching out to us. ");
 })
 
 
