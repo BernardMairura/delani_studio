@@ -50,4 +50,35 @@ $("#product").click(function(){
         $(this).css("transition",".5s ease")
     });
   });*/
+
+ /* $( ".row" ).hover(
+    function() {
+      $( this ).addtext( "hover" );
+    }, function() {
+      $( this ).removecolumn( "hover" );
+    }
+  ); */
+
+
+
+
 });
+
+
+
+const form=document.getElementById("form");
+
+
+
+form.addEventListener("submit", (e)=>{
+    e.preventDefault();
+
+    
+    alert("we have recieved your Message.")
+})
+
+
+
+
+
+
