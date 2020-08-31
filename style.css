@@ -104,20 +104,21 @@ top: -1.4cm; left: 0.7cm;
 
 
 
-.portfolio{
+.row{
     text-align-last: center;
 }
 
-.portfolio .row .column {
+.row .column {
     float: left;
     width: 25%; /*100/4=25% */
     padding: 10px;
     margin-bottom: 50px;
+    
 
   }
   
   /* Clearfix (clear floats) */
-  .portfolio .row::after {
+  .row .column::after {
     content: "";
     clear: both;
     display: table;
@@ -155,7 +156,7 @@ top: -1.4cm; left: 0.7cm;
     padding: 0px;
 }
 
- #userName{
+ #username{
     margin-right: 55px; 
     margin-top: 25px;
     width: 25%;
@@ -164,6 +165,7 @@ top: -1.4cm; left: 0.7cm;
     border: 2px solid #ccc;
     border-radius: 4px;
     resize: none;
+    background: transparent;
       }
   
 #email{
@@ -175,6 +177,7 @@ top: -1.4cm; left: 0.7cm;
     border: 2px solid #ccc;
     border-radius: 4px;
     resize: none;
+    background: transparent;
       }
 
 .msg textarea {
@@ -212,4 +215,13 @@ button{
     height: 100%;
 }
 
-    
+.contactUs .img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+ 

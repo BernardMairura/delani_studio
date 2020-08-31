@@ -65,21 +65,18 @@
                 <div class="column"><img src="portfolio/work6.jpg" alt="work6" style="width: 100%;"></div>
                 <div class="column"><img src="portfolio/work7.jpg" alt="work7" style="width: 100%;"></div>
                 <div class="column"><img src="portfolio/work8.jpg" alt="work8" style="width: 100%;"></div>
-            </div>
-               
+            </div>              
         </div>
 
         <div class="contactUs">
             <div class="content"><h1>CONTACT US</h1>
-                <form onsubmit="event.preventDefault(); displayVisitor();">
-                        <input type="text" placeholder="Name..." id="userName" style="background: transparent;" >
-                        <input type="text" placeholder="Email..." id="email" style="background: transparent;" >
+                <form class="form" id="form">
+                        <input type="text" placeholder="Name..." id="username">
+                        <input type="text" placeholder="Email..." id="email">
                         
                     <div class="msg">
-                        <textarea name="text" placeholder="Your Message here..." id="msg" rows="10" cols="100" ></textarea></form><br>
-                        <button>Send</button>
-                    </div>
-                        
+                        <textarea name="text" placeholder="Your Message here..." id="msg"  ></textarea></form><br>
+                        <button type="submit">Send</button>
                     </div>
                 </form>               
             </div>
