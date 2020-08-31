@@ -243,9 +243,13 @@ button{
 
 .social img{
 
-    float: right;
+   position: relative;
     padding: 10px;
     margin-bottom: 50px;
-    margin-right: 50;
+
+}
+
+footer{
+    text-align: center;
 }
  
