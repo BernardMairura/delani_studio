@@ -103,15 +103,28 @@ $("#product").click(function(){
 const form=document.getElementById("form");
 
 
-
 form.addEventListener("submit", (e)=>{
-    e.preventDefault();
+
     let nm = $("#username").val();
     alert(nm+ "!" + "we have received your message. Thank you for reaching out to us. ");
-})
+
+    e.preventDefault();
+  
+});
 
 
-
+/* $( "li" ).hover(
+    function() {
+      $( this ).append( $( "<span> ***</span>" ) );
+    }, function() {
+      $( this ).find( "span" ).last().remove();
+    }
+  );
+   
+  $( "li.fade" ).hover(function() {
+    $( this ).fadeOut( 100 );
+    $( this ).fadeIn( 500 );
+  }); */
 
 
 
