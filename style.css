@@ -103,8 +103,7 @@ top: -1.4cm; left: 0.7cm;
 
 
 
-
-.row{
+.portfolio{
     text-align-last: center;
 }
 
@@ -118,12 +117,40 @@ top: -1.4cm; left: 0.7cm;
   }
   
   /* Clearfix (clear floats) */
-  .row .column::after {
+  .portfolio .row::after {
     content: "";
     clear: both;
     display: table;
     align-content: center;
     
+  }
+
+.column {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -204,17 +231,6 @@ button{
     padding: 10px 10px;
     
 }
-
-
-
-.social{
-
-    float: left;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
 .contactUs .img {
     opacity: 1;
     display: block;
@@ -224,4 +240,12 @@ button{
     backface-visibility: hidden;
   }
 
+
+.social img{
+
+    float: right;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-right: 50;
+}
  
