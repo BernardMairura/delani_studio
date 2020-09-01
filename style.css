@@ -118,7 +118,8 @@ top: -1.4cm; left: 0.7cm;
     transition: .5s ease;
     backface-visibility: hidden;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding: auto;
   }
 
   .middle {
@@ -153,12 +154,7 @@ top: -1.4cm; left: 0.7cm;
     box-sizing: border-box;
   }
   
-  .c img{
-    display: block;
-    float: left;
-    width: 12.5%;
-    padding: 50px;
-  }
+
   
   /* Clearfix (clear floats) */
   .col-md-2::after {
@@ -270,6 +266,4 @@ button{
 footer{
     text-align: center;
 }
-  .c .image{
-      float: left;
-  }
+ 
