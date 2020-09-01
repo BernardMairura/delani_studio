@@ -59,13 +59,30 @@ $("#product").click(function(){
     }
   ); */
 
-  $(".row").hover(
+  /* $(".row1").hover(
     function() {
         
-        $(this).find(".column").css("opacity", "0.3")
-        $(this).find(".text").css("opacity", "1")
+        $(this).find("img").css("opacity", "0.3")
+      
     }
   );
+  */
+  $(".col-md-3").hover(
+    function()
+    {
+      $(this).find(".middle").css("opacity", "1")
+      $(this).find(".image").css("opacity", "0.3")
+      
+    }
+    ,
+    function() {
+
+        $(this).find(".middle").css("opacity", "0")
+        $(this).find(".image").css("opacity", "1")
+    }
+  ); 
+  
+
   /*.container:hover .image {
   opacity: 0.3;
 }
@@ -75,6 +92,23 @@ $("#product").click(function(){
 .container:hover .middle {
   opacity: 1;
 } */
+
+const form=document.getElementById("form");
+
+
+$("#cpa-form").on('submit', function(e){
+
+  e.preventDefault();
+  let nm = $("#username").val();
+  alert(nm+ "!" + "we have received your message. Thank you for reaching out to us. ");
+
+});
+
+  
+
+
+  
+
 
 
 });
@@ -100,31 +134,9 @@ $("#product").click(function(){
 
 
 
-const form=document.getElementById("form");
 
 
-form.addEventListener("submit", (e)=>{
 
-    let nm = $("#username").val();
-    alert(nm+ "!" + "we have received your message. Thank you for reaching out to us. ");
-
-    e.preventDefault();
-  
-});
-
-
-/* $( "li" ).hover(
-    function() {
-      $( this ).append( $( "<span> ***</span>" ) );
-    }, function() {
-      $( this ).find( "span" ).last().remove();
-    }
-  );
-   
-  $( "li.fade" ).hover(function() {
-    $( this ).fadeOut( 100 );
-    $( this ).fadeIn( 500 );
-  }); */
 
 
 
