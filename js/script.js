@@ -67,7 +67,7 @@ $("#product").click(function(){
     }
   );
   */
-  $(".col-md-3").hover(
+  $(".col-md-2").hover(
     function()
     {
       $(this).find(".middle").css("opacity", "1")
@@ -96,11 +96,13 @@ $("#product").click(function(){
 const form=document.getElementById("form");
 
 
-$("#cpa-form").on('submit', function(e){
+$("#mc-embedded-subscribe-form").on('submit', function(e){
 
   e.preventDefault();
   let nm = $("#username").val();
   alert(nm+ "!" + "we have received your message. Thank you for reaching out to us. ");
+
+  this.submit();
 
 });
 

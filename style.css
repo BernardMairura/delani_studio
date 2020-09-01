@@ -161,7 +161,7 @@ top: -1.4cm; left: 0.7cm;
   }
   
   /* Clearfix (clear floats) */
-  .col-md-3::after {
+  .col-md-2::after {
     content: "";
     clear: both;
     display: table;
