@@ -17,32 +17,34 @@ e.preventDefault(){
 }) */
 
 $(document).ready(function(){
-/*1st */
-$("#design").click(function(){
-    $(".designW").toggle();  
-});
+  /*1st */
+  $("#design").click(function(){
+      $(".designW").toggle();  
+  });
+  
+  $("#design").click(function(){
+      $(".design_icon").toggle();  
+  });
+  
+  /* 2nd */
+  $("#dev").click(function(){
+      $(".devW").toggle();
+  });
+  
+  $("#dev").click(function(){
+      $(".dev_icon").toggle();
+  });
+  
+  /* 3rd */
+  $("#product").click(function(){
+      $(".productW").toggle();
+  });
+  
+  $("#product").click(function(){
+      $(".product_icon").toggle();
+  });
 
-$("#design").click(function(){
-    $(".design_icon").toggle();  
-});
 
-/* 2nd */
-$("#dev").click(function(){
-    $(".devW").toggle();
-});
-
-$("#dev").click(function(){
-    $(".dev_icon").toggle();
-});
-
-/* 3rd */
-$("#product").click(function(){
-    $(".productW").toggle();
-});
-
-$("#product").click(function(){
-    $(".product_icon").toggle();
-});
 /*$(".column").hover(function(){
     $(this).css( "opacity", "0");
     }, function(){
