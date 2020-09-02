@@ -78,21 +78,21 @@ top: -1.4cm; left: 0.7cm;
 }
 .whatWeDo{
     text-align-last: center;
+    margin: 30px;
     
     
 }
-
-
-.whatWeDo #design, #Product ,#dev {
-    float: left;
+.col-md-4{
+  float: left;
     width: 33.33%; /*100/3=33.33% */
     padding: 5px;
-    margin-bottom: 50px;
+    align-content: center;
+    margin-bottom: 30px;
    
-  }
-  
+}
+ 
   /* Clearfix (clear floats) */
-  .whatWeDo::after {
+.col-md-3::after {
     content: "";
     clear: both;
     display: table;
@@ -108,6 +108,7 @@ top: -1.4cm; left: 0.7cm;
 
   .portfolio{
     text-align-last: center;
+    margin-top: 50px;
 }
 
   /*.container {
@@ -247,6 +248,11 @@ button{
     padding: 10px 10px;
     
 }
+.button{
+  margin-bottom: 150px;
+  
+}
+
 .contactUs .img {
     opacity: 1;
     display: block;
@@ -267,7 +273,8 @@ button{
     border: 1px #818181 solid;
 }
 
-footer{
+
+.footer{
     text-align: center;
 }
  
