@@ -52,8 +52,13 @@ top: -1.4cm; left: 0.7cm;
 
 .about_us {
     text-align-last: center;
-    margin-bottom: 50px;
+    margin-top: 50px;
   
+}
+
+.info p{
+  padding: 100px;
+  margin-bottom: 50px;
 }
 
 
