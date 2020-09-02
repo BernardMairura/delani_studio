@@ -56,11 +56,9 @@ top: -1.4cm; left: 0.7cm;
   
 }
 
-.info p{
-  padding: 100px;
+.info{
   margin-bottom: 50px;
 }
-
 
 .services {
     background-image: url(./backgrounds/s_img.jpg);
